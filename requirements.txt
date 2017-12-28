@@ -1,0 +1,9 @@
+defusedxml==0.4.1
+Magic-file-extensions==0.2
+mysqlclient==1.3.7
+olefile==0.44
+Pillow==4.2.1
+pyliblzma==0.5.3
+reportlab==3.3.0
+SOAPpy==0.12.22
+wstools==0.4.3
