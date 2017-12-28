@@ -1,0 +1,6 @@
+{%for response in parse_url%}
+	{{response.url}}
+{%if response.status%}
+	 - кодировка текста: {{response.text_encode}}, заголовок: "{{response.title}}", h1: "{{response.h1}}"
+{%endif%}
+{%endfor%}

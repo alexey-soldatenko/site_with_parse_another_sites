@@ -1,0 +1,8 @@
+{%for response in parse_url%}
+	{{response.date|date:"d.m.Y H:i:s"}}:
+	{%if response.status%}
+	success
+	{%else%}
+	error
+	{%endif%}
+{%endfor%}

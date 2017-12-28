@@ -1,0 +1,21 @@
+#block{
+	width: 60%;
+	margin: 100px auto;
+	overflow: hidden;
+	padding: 10px;
+}
+
+#area_left{
+	width: 40%;
+	min-height: 200px;
+	float: left;
+	resize: none;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5); 
+}
+#area_right{
+	width: 40%;
+	min-height: 200px;
+	float: right;
+	resize: none;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+}
